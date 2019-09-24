@@ -33,17 +33,49 @@ input {
     background-color: lightskyblue;
     border: none;
     /* Allows us to add a delay before the animation starts */
-    transition-delay: 0s;
+    /* transition-delay: 0s;
     /* Allows us to cointrol how long the animation takes */
-    transition-duration: 5s;
+    /* transition-duration: 5s;
     /* Allows us to specify what property will be animatged for the transition */
     transition-property: background-color;
     /* Allows us to modify the speed of an animation, such as starting out slow then speeding up */
-    transition-timing-function: ease-in-out;
+    /* transition-timing-function: ease-in-out;
 
-    transition: background-color 3s ease 1s; /* We can use shorthand to specify all of the transition poperties in one line - property, duration, timing-function, delay */
+    /transition: background-color 3s ease 1s; /* We can use shorthand to specify all of the transition poperties in one line - property, duration, timing-function, delay */
 }
 
 #submit:hover {
     background-color: yellow;
+}
+
+/* Styles for the uls and lis*/
+
+ul {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: greenyellow;
+}
+
+li:hover {
+    background-color: green !important;
+}
+
+/* Styles for when a list is marked done */
+
+.done {
+    background-color: red !important;
+}
+
+.done:hover {
+    background-color: pink !important;
 }
